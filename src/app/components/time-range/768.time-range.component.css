@@ -15,4 +15,9 @@
 		float: left;
 		width: 50%;
 	}
+
+	app-time-range .date-field-container .input-field-label {
+		display: none;
+	}
+
 }
