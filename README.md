@@ -1,5 +1,9 @@
 # Betssontest
 
+## Requirements
+
+Project has dependencies that require Node 4.x.x and NPM 3.x.x.
+
 ## Installaion instructions
 
 0. Clone or download project.
