@@ -1,0 +1,15 @@
+<app-time-range class="sidebar" [minDate]="minDateTimestamp" [maxDate]="maxDateTimestamp" (onChange)="dateChanged($event)"></app-time-range>
+
+<div class="chart-content" style=""></div>
+
+<app-info class="sidebar" [maximumsData]="maximumsData"></app-info>
+
+<div class="sidebar">
+	<label class="input-field-label">Items to load</label><input class="input-field" [(ngModel)]="itemsCount"/>
+	<label class="input-field-label">Days to load</label><input class="input-field" [(ngModel)]="daysCount"/>
+</div>
+
+
+
+
+

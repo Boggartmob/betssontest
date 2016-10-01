@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+	app-navigation,
+	app-navigation.right-side,
+	app-navigation .container,
+	app-navigation.right-side .container {
+		float: none;
+	}
+
+	app-navigation, app-navigation.right-side {
+		width: 60px;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 2000;
+
+		background-image: url("assets/glyphicons-517-menu-hamburger.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	app-navigation:hover, app-navigation.right-side:hover {
+		background-image: none;
+		width: 100%;
+		height: auto;
+	}
+
+	app-navigation * {
+		display: none;
+		float: none;
+		border-radius: 0px;
+		width: 100%;
+	}
+
+	app-navigation .container *, app-navigation.right-side .container *, app-navigation:not([class="right-side"]) .container :first-child {
+		border-top: 1px solid #c0c0c0;
+		float: none;
+		border-radius: 0px;
+		border-left: none;
+		border-right: none;
+		width: auto;
+	}
+
+	app-navigation .container :last-child, app-navigation.right-side .container :last-child {
+		border-radius: 0px 0px 10px 10px;
+	}
+
+	app-navigation .brand, app-navigation.right-side .brand {
+		float: none;
+	}
+
+	app-navigation:hover *, app-navigation.right-side:hover * {
+		display: block;
+	}
+}

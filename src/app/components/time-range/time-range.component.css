@@ -1,0 +1,18 @@
+app-time-range div.ng2-datetime-picker {
+	width: 100%;
+}
+
+app-time-range {
+	z-index: 1;
+}
+
+app-time-range .date-field-container input {
+	width: 100%;
+	display: block;
+	margin: 5px auto;
+}
+
+app-time-range .date-field-container {
+	float: none;
+	width: 100%;
+}

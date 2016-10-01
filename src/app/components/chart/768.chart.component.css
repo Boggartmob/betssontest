@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+
+	app-chart {
+		width: 100%;
+	}
+
+	.chart-content {
+		position: inherit;
+		width: 100%;
+	}
+
+	.sidebar {
+		width: auto;
+		position: inherit;
+		left: auto;
+		top: auto;
+	}
+}

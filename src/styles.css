@@ -1,0 +1,40 @@
+* {
+	font-size: 1em;
+	font-family: sans-serif;
+}
+
+app-root {
+	display: block;
+	position: relative;
+	margin: 0% auto;
+
+	min-width: 675px;
+	max-width: 900px;
+}
+
+.input-field {
+	height: 48px;
+	line-height: 48px;
+	border: 1px solid #c0c0c0;
+	border-radius: 10px;
+	outline: none;
+	text-align: center;
+}
+
+.input-field-label {
+	display: block;
+	font-weight: bold;
+	margin: 15px 0px 5px 0px;
+}
+
+@media (max-width: 768px) {
+
+	* {
+		font-size: 102%;
+	}
+
+	app-root {
+		margin: 0;
+	}
+
+}

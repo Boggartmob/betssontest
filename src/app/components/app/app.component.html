@@ -1,0 +1,4 @@
+<app-navigation #navigation></app-navigation>
+<app-chart [controls]='navigation' #chart></app-chart>
+<app-spinner *ngIf="chart.loading"></app-spinner>
+

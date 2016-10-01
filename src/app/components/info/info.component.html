@@ -1,0 +1,18 @@
+<label class="input-field-label">Info</label>
+
+<div *ngIf="maximumsData.ranges.length > 0">
+	Maximum cars: {{maximumsData.maxCount}}<br/><br/>
+	Maximum time ranges:<br/><br/>
+</div>
+<div *ngFor="let range of maximumsData.ranges">
+	{{dateFormatter(range.from)}} - {{dateFormatter(range.to)}}, {{range.total}} min total.
+	<hr/>
+</div>
+
+<div *ngIf="maximumsData.ranges.length == 0 && maximumsData.maxCount > 0">
+	No maximum intervals for this data range.
+</div>
+
+<div *ngIf="maximumsData.ranges.length == 0 && maximumsData.maxCount <= 0">
+	No data loaded.
+</div>

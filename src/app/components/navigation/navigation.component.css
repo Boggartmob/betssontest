@@ -1,0 +1,68 @@
+app-navigation {
+	background-color: #FBFBFB;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+	margin-bottom: 15px;
+	border: 1px solid #c0c0c0;
+	border-radius: 10px;
+}
+
+app-navigation * {
+	color: #888;
+}
+
+app-navigation .container * {
+	position: relative;
+	display: block;
+	float: left;
+	padding: 0px 20px;
+	border-right: 1px solid #c0c0c0;
+	text-decoration: none;
+}
+
+app-navigation .container a input[type="file"] {
+	display: block;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	line-height: 60px;
+}
+
+app-navigation:not([class="right-side"]) .container :first-child {
+	border-radius: 10px 0px 0px 10px;
+}
+
+app-navigation .brand {
+	float: right;
+	margin: 0px 30px;
+	font-size: 115%;
+	font-weight: bold;
+	width: auto;
+}
+app-navigation.right-side .brand {
+	float: left;
+}
+
+app-navigation.right-side .container {
+	float: right;
+}
+
+app-navigation.right-side .container * {
+	border-right: none;
+	border-left: 1px solid #c0c0c0;
+}
+
+app-navigation.right-side :last-child {
+	border-radius: 0px 10px 10px 0px;
+}
+
+app-navigation .container>*:hover {
+	background-color: #F5F5F5;
+}

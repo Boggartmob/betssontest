@@ -1,0 +1,60 @@
+app-chart {
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.chart-content {
+	position: absolute;
+	width: 75%;
+	top: 0px;
+	min-width: 675px;
+	max-width: 770px;
+}
+
+.sidebar {
+	display: block;
+	overflow: visible;
+	left: 75%;
+	width: 25%;
+	position: relative;
+}
+
+.sidebar > div {
+	width: 100%;
+}
+.sidebar input {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* SVG STYLES */
+
+circle {
+	stroke-width: 2px;
+	stroke: #79A32B;
+	fill: transparent;
+	cursor: pointer;
+}
+
+path {
+	stroke: steelblue;
+	stroke-width: 2;
+	fill: none;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000000;
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+
+.x.axis text {
+	font-size: 85%;
+}

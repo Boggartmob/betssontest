@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+	app-time-range {
+		margin-left: 70px;
+		height: 60px;
+		border: 1px solid #c0c0c0;
+		border-radius: 10px;
+		margin-bottom: 15px;
+	}
+
+	app-time-range .date-field-container input {
+		width: 95%;
+	}
+
+	app-time-range .date-field-container {
+		float: left;
+		width: 50%;
+	}
+}
