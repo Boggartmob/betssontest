@@ -1,12 +1,14 @@
 <div class="date-field-container">
-  <input class="input-field" value="{{_dateFrom}}"
-      [(ngModel)]="dateFrom" ng2-datetime-picker
-      date-format="DD-MM-YYYY HH:mm"
-      close-on-select="true"  />
+	<label class="input-field-label">Date from</label>
+	<input class="input-field" value="{{_dateFrom}}"
+		[(ngModel)]="dateFrom" ng2-datetime-picker
+		date-format="DD-MM-YYYY HH:mm"
+		close-on-select="true"  />
 </div>
 <div class="date-field-container">
-  <input class="input-field" value="{{_dateTo}}"
-      [(ngModel)]="dateTo" ng2-datetime-picker
-      date-format="DD-MM-YYYY HH:mm"
-      close-on-select="true"  />
+	<label class="input-field-label">Date to</label>
+	<input class="input-field" value="{{_dateTo}}"
+		[(ngModel)]="dateTo" ng2-datetime-picker
+		date-format="DD-MM-YYYY HH:mm"
+		close-on-select="true"  />
 </div>
