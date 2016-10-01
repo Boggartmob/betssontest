@@ -2,11 +2,13 @@
 
 ## Installaion instructions
 
+0. Clone or download project.
 1. Install Node https://nodejs.org/en/download/
 2. Update npm ```npm install npm -g```
 3. Install angular-cli globally ```npm install -g angular-cli```
 4. Install project requirements ```npm i``` inside project root directory.
 5. Run development server ```ng serve --port 8080``` inside project root directory.
+6. Open http://localhost:8080 in browser
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
 
